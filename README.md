@@ -89,7 +89,7 @@ This project involves automating a painting filling machine with two different p
     - After filling, there is an additional 10-second delay before the conveyor resumes              movement.
       
 3. End Process:
-  -- The conveyor moves until the Job_Out_Sensor is triggered, stopping the conveyor.
+    - The conveyor moves until the Job_Out_Sensor is triggered, stopping the conveyor.
     - When the Job_Out_Sensor is triggered again, the system resets, ready for the next job.
 
 **Mode 2: Blue Paint Filling**
