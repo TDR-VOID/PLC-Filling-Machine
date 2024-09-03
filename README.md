@@ -75,7 +75,10 @@ This project involves automating a painting filling machine with two different p
       
 - Mode Switch: A 3-position switch to select the operating mode.
 
+</br>
+
 ### Operating Modes
+</br>
 
 **Mode 1: Yellow Paint Filling**
 
@@ -93,10 +96,12 @@ This project involves automating a painting filling machine with two different p
     - When the Job_Out_Sensor is triggered again, the system resets, ready for the next job.
 
 **Mode 2: Blue Paint Filling**
+</br>
 
 - Similar to Mode 1, but with the Blue_Filling_Sensor and Valve_Blue controlling the process instead of the Yellow components.
   
 **Mode 3: Dual Paint Filling (Yellow and Blue)**
+</br>
 
 1. Start Process:
     - When Start_PB is pressed, the conveyor starts moving.
