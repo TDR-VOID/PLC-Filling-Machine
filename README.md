@@ -116,6 +116,7 @@ This project involves automating a painting filling machine with two different p
 
 ## Ladder Diagram
 
+[Ladder Diagram (WinProladder)](Ladder_Diagrams/All_Modes.pdw)
 [Ladder Diagram (PDF)](Screenshot/ladder-diagram.pdf)
 
 
