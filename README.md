@@ -46,3 +46,29 @@ Once you have verified that the program works as expected, you can install it on
 4. Select Online → Autocheck and choose the appropriate COM port.
    
 This will upload the program to the PLC, making it ready for operation.
+
+
+
+## Project Information
+
+### Overview
+
+This project involves automating a painting filling machine with two different paint colors: Yellow and Blue. The system is controlled by a Fatek FBS series PLC and uses various sensors and valves to manage the paint filling process. The machine operates in three distinct modes, each defining a specific sequence of operations.
+
+### Components and Sensors
+
+- Paint Valves: Two valves control the flow of paint:
+    - Valve_Yellow: Controls Yellow paint.
+    - Valve_Blue: Controls Blue paint.
+- Conveyor Sensors:
+    - Job_In_Sensor: Detects when a job (paint bucket) enters the conveyor.
+    - Job_Out_Sensor: Detects when a job exits the conveyor.
+- Filling Sensors:
+    - Yellow_Filling_Sensor: Ensures the paint bucket is correctly positioned under the Yellow         filling valve.
+    - Blue_Filling_Sensor: Ensures the paint bucket is correctly positioned under the Blue              filling valve.
+- Push Buttons:
+    - Start_PB: Starts the filling process.
+    - Stop_PB: Stops the process (emergency button).
+- Mode Switch: A 3-position switch to select the operating mode.
+
+
