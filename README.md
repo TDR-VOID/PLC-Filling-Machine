@@ -114,4 +114,8 @@ This project involves automating a painting filling machine with two different p
 
     - After a 2-second delay, the conveyor continues moving until the Job_Out_Sensor is              triggered, stopping the conveyor and resetting the system.
 
+## Ladder Diagram
+
+[Ladder Diagram (PDF)](Screenshot/ladder-diagram.pdf)
+
 
