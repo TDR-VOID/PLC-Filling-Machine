@@ -96,11 +96,15 @@ This project involves automating a painting filling machine with two different p
     - The conveyor moves until the Job_Out_Sensor is triggered, stopping the conveyor.
     - When the Job_Out_Sensor is triggered again, the system resets, ready for the next job.
 
+</br>
+
 **Mode 2: Blue Paint Filling**
 </br>
 
 - Similar to Mode 1, but with the Blue_Filling_Sensor and Valve_Blue controlling the process instead of the Yellow components.
-  
+
+</br>
+
 **Mode 3: Dual Paint Filling (Yellow and Blue)**
 </br>
 
