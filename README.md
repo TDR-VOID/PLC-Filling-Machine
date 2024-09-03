@@ -13,7 +13,7 @@ For more detailed information about the Fatek FBS series PLC, including specific
 
 The programming for this PLC was done using the WinProLadder software, which is designed specifically for Fatek PLCs. WinProLadder provides a user-friendly interface for creating and managing PLC programs.
 
-For more information about using WinProLadder, please refer to the WinProLadder User Manual.
+For more information about using WinProLadder, please refer to the [WinProLadder User Manual](https://www.fatek.com/en/download.php?act=list&cid=141).
 
 ### Setting Up WinProLadder
 
