@@ -60,15 +60,58 @@ This project involves automating a painting filling machine with two different p
 - Paint Valves: Two valves control the flow of paint:
     - Valve_Yellow: Controls Yellow paint.
     - Valve_Blue: Controls Blue paint.
+      
 - Conveyor Sensors:
     - Job_In_Sensor: Detects when a job (paint bucket) enters the conveyor.
     - Job_Out_Sensor: Detects when a job exits the conveyor.
+      
 - Filling Sensors:
     - Yellow_Filling_Sensor: Ensures the paint bucket is correctly positioned under the Yellow         filling valve.
     - Blue_Filling_Sensor: Ensures the paint bucket is correctly positioned under the Blue              filling valve.
+      
 - Push Buttons:
     - Start_PB: Starts the filling process.
     - Stop_PB: Stops the process (emergency button).
+      
 - Mode Switch: A 3-position switch to select the operating mode.
+
+### Operating Modes
+
+**Mode 1: Yellow Paint Filling**
+
+1. Start Process:
+    - When Start_PB is pressed, the conveyor starts moving.
+    - The conveyor continues until the Yellow_Filling_Sensor is activated and the                    Job_In_Sensor is triggered.
+
+2. Filling Process:
+    - The conveyor stops, and after a 10-second delay, the Valve_Yellow opens to start filling.
+    - The filling process lasts for 20 seconds.
+    - After filling, there is an additional 10-second delay before the conveyor resumes              movement.
+      
+3. End Process:
+  -- The conveyor moves until the Job_Out_Sensor is triggered, stopping the conveyor.
+    - When the Job_Out_Sensor is triggered again, the system resets, ready for the next job.
+
+**Mode 2: Blue Paint Filling**
+
+- Similar to Mode 1, but with the Blue_Filling_Sensor and Valve_Blue controlling the process instead of the Yellow components.
+  
+**Mode 3: Dual Paint Filling (Yellow and Blue)**
+
+1. Start Process:
+    - When Start_PB is pressed, the conveyor starts moving.
+    - The conveyor moves until the Yellow_Filling_Sensor is activated.
+
+2. Yellow Filling:
+    - After a 1-second delay, the Valve_Yellow opens and fills for 10 seconds.
+    - There is a 2-second delay after the Yellow filling is complete.
+
+3. Blue Filling:
+    - The conveyor moves until the Blue_Filling_Sensor is activated.
+    - After a 1-second delay, the Valve_Blue opens and fills for 10 seconds.
+      
+4. End Process:
+
+    - After a 2-second delay, the conveyor continues moving until the Job_Out_Sensor is              triggered, stopping the conveyor and resetting the system.
 
 
