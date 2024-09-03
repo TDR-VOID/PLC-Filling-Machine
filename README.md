@@ -7,7 +7,7 @@
 
 This project used the Fatek FBS series PLC, a versatile and powerful programmable logic controller ideal for automation tasks. The Fatek FBS series offers a range of features that make it suitable for various industrial applications.
 
-For more detailed information about the Fatek FBS series PLC, including specifications and usage instructions, please refer to the [FBs-PLC User's Manual.](https://www.fatek.com/en/download.php?act=list&cid=58)
+For more detailed information about the Fatek FBS series PLC, including specifications and usage instructions, please refer to the [FBs-PLC User's Manual](https://www.fatek.com/en/download.php?act=list&cid=58).
 
 ### Programming Software: WinProLadder
 
